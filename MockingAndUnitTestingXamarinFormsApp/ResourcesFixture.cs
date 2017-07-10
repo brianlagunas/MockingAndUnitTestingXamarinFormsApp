@@ -1,8 +1,5 @@
-﻿using System.Threading.Tasks;
-using Tests.Mocks;
-using Xamarin.Forms;
+﻿using Tests.Mocks;
 using Xunit;
-using System.Linq;
 
 namespace Tests
 {
