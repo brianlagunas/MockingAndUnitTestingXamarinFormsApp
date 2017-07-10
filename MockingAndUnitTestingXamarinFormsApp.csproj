@@ -6,6 +6,12 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <None Remove=".gitattributes" />
+	  <None Remove=".gitignore" />
+	  <None Remove="LICENSE" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0" />
 		<PackageReference Include="Xamarin.Forms" Version="2.3.5.256-pre6" />
 		<PackageReference Include="xunit" Version="2.3.0-beta3-build3705" />
